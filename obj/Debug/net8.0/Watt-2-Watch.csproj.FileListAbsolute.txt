@@ -1,0 +1,16 @@
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.exe
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.deps.json
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.runtimeconfig.json
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.dll
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.pdb
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt_2_Watch.Properties.Resources.resources
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.csproj.GenerateResource.cache
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.AssemblyInfoInputs.cache
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.AssemblyInfo.cs
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.csproj.CoreCompileInputs.cache
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.dll
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\refint\Watt-2-Watch.dll
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.pdb
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.genruntimeconfig.cache
+D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\ref\Watt-2-Watch.dll
