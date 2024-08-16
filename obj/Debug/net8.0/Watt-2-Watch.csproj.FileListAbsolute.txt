@@ -14,3 +14,20 @@ D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\
 D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.pdb
 D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.genruntimeconfig.cache
 D:\Belgium campus\Hayley\2\TERM 3\Programming\Assignment\Watt-2-Watch\obj\Debug\net8.0\ref\Watt-2-Watch.dll
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.exe
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.deps.json
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.runtimeconfig.json
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.dll
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\bin\Debug\net8.0\Watt-2-Watch.pdb
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt_2_Watch.Properties.Resources.resources
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.csproj.GenerateResource.cache
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.AssemblyInfoInputs.cache
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.AssemblyInfo.cs
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.csproj.CoreCompileInputs.cache
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.sourcelink.json
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.dll
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\refint\Watt-2-Watch.dll
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.pdb
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\Watt-2-Watch.genruntimeconfig.cache
+C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\obj\Debug\net8.0\ref\Watt-2-Watch.dll

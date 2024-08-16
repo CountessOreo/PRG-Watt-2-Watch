@@ -29,7 +29,7 @@ namespace Watt_2_Watch
             Console.WriteLine($"Shows found: {Shows.Count}\r\n\n");
             foreach (DatabaseRecord rec in Shows)
             {
-                Console.WriteLine($"Title:{rec.OriginalTitle} Genre: {rec.Genres}.");
+                Console.WriteLine($"Title:{rec.OriginalTitle}.");
             }
 
 

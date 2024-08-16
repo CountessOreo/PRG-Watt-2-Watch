@@ -30,26 +30,30 @@ namespace Watt_2_Watch
 
                     bool isAdult = false;
 
-                    if (fields[4] == "1") isAdult = true;
+                    if (fields.Length > 4 && fields[4] == "1") isAdult = true;
+                        
 
-                    if (fields[5] == "\\N") fields[5] = "0";
-                    if (fields[6] == "\\N") fields[6] = "0";
-                    if (fields[7] == "\\N") fields[7] = "0";
+                    if (fields.Length > 5 && fields[5] == "\\N") fields[5] = "0";
+                    if (fields.Length > 6 && fields[6] == "\\N") fields[6] = "0";
+                    if (fields.Length > 7 && fields[7] == "\\N") fields[7] = "0";
 
-                    DatabaseRecord Record = new DatabaseRecord()
+                    if (fields.Length > 8)
                     {
-                        ShowId = fields[0],
-                        TitleType = fields[1],
-                        PrimaryTitle = fields[2],
-                        OriginalTitle = fields[3],
-                        IsAdult = isAdult,
-                        StartYear = Convert.ToInt32(fields[5]),
-                        EndYear = Convert.ToInt32(fields[6]),
-                        RuntimeMinutes = Convert.ToInt32(fields[7]),
-                        Genres = fields[8].Split(',').ToList(),
-                    };
+                        DatabaseRecord Record = new DatabaseRecord()
+                        {
+                            ShowId = fields[0],
+                            TitleType = fields[1],
+                            PrimaryTitle = fields[2],
+                            OriginalTitle = fields[3],
+                            IsAdult = isAdult,
+                            StartYear = Convert.ToInt32(fields[5]),
+                            EndYear = Convert.ToInt32(fields[6]),
+                            RuntimeMinutes = Convert.ToInt32(fields[7]),
+                            Genres = fields[8].Split(',').ToList(),
+                        };
 
-                    Records.Add(Record);
+                        Records.Add(Record);
+                    }
                 }
                 else FirstLine = false;
             }
