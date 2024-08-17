@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Watt_2_Watch
-build_property.ProjectDir = C:\Users\caran\Source\Repos\PRG-Watt-2-Watch\
+build_property.ProjectDir = C:\Users\caran\source\repos\New\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

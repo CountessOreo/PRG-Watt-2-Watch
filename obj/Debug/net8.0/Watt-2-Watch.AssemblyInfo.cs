@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Watt-2-Watch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1a8fcc3349995340c6376ca5af13b49a251e088")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd4a314922e3455b00742350d6af5b6c752b22e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Watt-2-Watch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Watt-2-Watch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

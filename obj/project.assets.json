@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caran\\Source\\Repos\\PRG-Watt-2-Watch\\Watt-2-Watch.csproj",
+      "projectUniqueName": "C:\\Users\\caran\\source\\repos\\New\\Watt-2-Watch.csproj",
       "projectName": "Watt-2-Watch",
-      "projectPath": "C:\\Users\\caran\\Source\\Repos\\PRG-Watt-2-Watch\\Watt-2-Watch.csproj",
+      "projectPath": "C:\\Users\\caran\\source\\repos\\New\\Watt-2-Watch.csproj",
       "packagesPath": "C:\\Users\\caran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caran\\Source\\Repos\\PRG-Watt-2-Watch\\obj\\",
+      "outputPath": "C:\\Users\\caran\\source\\repos\\New\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

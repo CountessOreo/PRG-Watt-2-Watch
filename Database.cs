@@ -85,57 +85,109 @@ namespace Watt_2_Watch
         #endregion
 
         #region Methods
-        
+        /// <summary>
+        /// Returns a list of shows based on show type.
+        /// </summary>
+        /// <param name="records">Database records.</param>
+        /// <returns>A list of shows that match show types.</returns>
         private IEnumerable<DatabaseRecord> FilterByType(IEnumerable<DatabaseRecord> records)
         {
             return records.Where(rec => rec.TitleType == "tvSeries" || rec.TitleType == "movie" || rec.TitleType == "short" || rec.TitleType == "tvMiniSeries" || rec.TitleType == "tvSpecial");
         }
-
+        /// <summary>
+        /// Returns a list of shows between a range of start dates. 
+        /// </summary>
+        /// <param name="startYear">Earliest air date.</param>
+        /// <param name="endYear">Latest air date</param>
+        /// <returns>A list of shows between a given air date range.</returns>
         public List<DatabaseRecord> FilterByYearRange(int startYear, int endYear)
         {
             return FilterByType(Records).Where(rec => rec.StartYear >= startYear && rec.StartYear <= endYear).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows between a range of start dates from a provided list. 
+        /// </summary>
+        /// <param name="recordList">List to process.</param>
+        /// <param name="startYear">Earliest air date.</param>
+        /// <param name="endYear">Latest air date</param>
+        /// <returns>A list of shows between a given air date range from a provided list.</returns>
         public List<DatabaseRecord> FilterByYearRange(List<DatabaseRecord> recordList, int startYear, int endYear)
         {
             return FilterByType(recordList).Where(rec => rec.StartYear >= startYear && rec.StartYear <= endYear).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows based on specified genres.
+        /// </summary>
+        /// <param name="genres">Provided genre list</param>
+        /// <returns>A list of shows that match provided genre list.</returns>
         public List<DatabaseRecord> FilterByGenre(List<string> genres)
         {
             return FilterByType(Records).Where(rec => rec.Genres.Any(genre => genres.Contains(genre, StringComparer.OrdinalIgnoreCase))).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows based on specified genres on a provided list.
+        /// </summary>
+        /// <param name="recordList">List to process.</param>
+        /// <param name="genres">Provided genre list</param>
+        /// <returns>A list of shows that match provided genre list on a provided list..</returns>
         public List<DatabaseRecord> FilterByGenre(List<DatabaseRecord> recordList, List<string> genres)
         {
             return FilterByType(recordList).Where(rec => rec.Genres.Any(genre => genres.Contains(genre, StringComparer.OrdinalIgnoreCase))).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows that match or partially match a title.
+        /// </summary>
+        /// <param name="title">Provided title.</param>
+        /// <returns>A list of shows that match or partially match a title.</returns>
         public List<DatabaseRecord> FilterByTitle(string title)
         {
             return FilterByType(Records).Where(rec => rec.PrimaryTitle.Contains(title, StringComparison.OrdinalIgnoreCase) || rec.OriginalTitle.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows that match or partially match a title on a provided list.
+        /// </summary>
+        /// <param name="recordList">List to process</param>
+        /// <returns>A list of shows that match or partially match a title on a provided list.</returns>
         public List<DatabaseRecord> FilterByTitle(List<DatabaseRecord> recordList, string title)
         {
             return FilterByType(recordList).Where(rec => rec.PrimaryTitle.Contains(title, StringComparison.OrdinalIgnoreCase) || rec.OriginalTitle.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows that are of a minimum and maximum duration.
+        /// </summary>
+        /// <param name="minDuration">Minimum duration length.</param>
+        /// <param name="maxDuration">Maximum duration length.</param>
+        /// <returns>A list of shows between a range of duration lengths.</returns>
         public List<DatabaseRecord> FilterByDuration(int minDuration, int maxDuration)
         {
             return FilterByType(Records).Where(rec => rec.RuntimeMinutes >= minDuration && rec.RuntimeMinutes <= maxDuration).ToList();
         }
-
+        /// <summary>
+        /// Returns a list of shows that are of a minimum and maximum duration on a provided list.
+        /// </summary>
+        /// <param name="recordList">List to process</param>
+        /// <param name="minDuration">Minimum duration length.</param>
+        /// <param name="maxDuration">Maximum duration length.</param>
+        /// <returns>A list of shows between a range of duration lengths on a provided list.</returns>
         public List<DatabaseRecord> FilterByDuration(List<DatabaseRecord> recordList, int minDuration, int maxDuration)
         {
             return FilterByType(recordList).Where(rec => rec.RuntimeMinutes >= minDuration && rec.RuntimeMinutes <= maxDuration).ToList();
         }
-
+        /// <summary>
+        /// Return a list of shows of a specified type.
+        /// </summary>
+        /// <param name="showType">Show type.</param>
+        /// <returns>List of shows of a specified type.</returns>
         public List<DatabaseRecord> FilterByType(string showType)
         {
             return Records.Where(rec => rec.TitleType == showType).ToList();
         }
-
+        /// <summary>
+        /// Return a list of shows of a specified type on a provided list.
+        /// </summary>
+        /// <param name="recordList">List to process.</param>
+        /// <param name="showType">Show type.</param>
+        /// <returns>List of shows of a specified type on a provided list.</returns>
         public List<DatabaseRecord> FilterByType(List<DatabaseRecord> recordList, string showType)
         {
             return recordList.Where(rec => rec.TitleType == showType).ToList();
