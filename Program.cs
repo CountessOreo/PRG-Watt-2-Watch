@@ -24,12 +24,12 @@ namespace Watt_2_Watch
             //    Console.WriteLine($"Year:{rec.StartYear} Title:{rec.OriginalTitle}.");
             //}
 
-            List<DatabaseRecord>  Shows = db.FilterByGenre(["horror"]);
+            List<DatabaseRecord>  Shows = db.FilterByType("movie");
 
             Console.WriteLine($"Shows found: {Shows.Count}\r\n\n");
             foreach (DatabaseRecord rec in Shows)
             {
-                Console.WriteLine($"Title:{rec.OriginalTitle}.");
+                Console.WriteLine($"Title:{rec.OriginalTitle} \tType: {rec.TitleType}.");
             }
 
 
